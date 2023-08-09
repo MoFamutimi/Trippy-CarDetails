@@ -1,0 +1,142 @@
+.mainwrapper{
+    width: 25%;
+    height: 70%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.mainname{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchname{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #00B4D8;
+}
+.FlightPopUpSearchItemBox{
+    width: 100%;
+    height: 100%;
+    padding: 30px 50px;
+    overflow-y: scroll;
+  }
+  .FlightPopUpSearchItemBox::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .FlightPopUpSearchItemBoxWrap{
+    width: 100%;
+    height: 100%;
+  }
+  .carDiv{
+    width: 40%;
+    height: 100%;
+    background-color: gray;
+    display: flex;
+    background-image: url(../assets/thecarrental.png);
+    background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+  }
+  .cartextdiv{
+    width: 30%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .thebuttontextdiv{
+    width: 20%;
+    height: 80%;
+    /* background-color: green; */
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+  }
+  .toyotext{
+    font-size: 14px;
+  }
+  .carcolor{
+    font-size: 12px;
+  }
+  .cardays{
+    font-size: 12px;
+  }
+  .carprice{
+    font-size: 12px;
+  }
+  .carseat{
+    font-size: 13px;
+  }
+  .thebuttontextdiv button{
+    width: 55px;
+    height: 30px;
+    background: #fff;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #00B4D8;
+    font-size: 18px;
+  }
+  .FlightPopUpSearchItem1{
+    width: 100%;
+    height: 140px;
+    /* background: #000; */
+    margin: 3px;
+    background: #00B4D8;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .FlightPopUpSearchItem1A{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .FlightPopUpSearchItem1B{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  .FlightPopUpSearchItem1C{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  .FlightPopUpSearchItem1D{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .FlightPopUpSearchItem1D button{
+    width: 80px;
+    height: 30px;
+    background: #fff;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #00B4D8;
+    font-size: 18px;
+  }
+  
+  
+  
